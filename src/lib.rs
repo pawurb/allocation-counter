@@ -77,7 +77,7 @@ cargo test --features count-allocations
 ```
 */
 
-pub(crate) mod allocator;
+pub mod allocator;
 
 /// The allocation information obtained by a [measure()] call.
 #[derive(Clone, Copy, Default, Debug, PartialEq, Eq, Hash)]
